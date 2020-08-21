@@ -1,0 +1,367 @@
+digraph "../checkpoints/FM/v3/ok/init-128-normal-1.0-v3" {
+	data [label=data fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	iq0_input0_conv0_fwd [label="Convolution
+3x3/1x1, 64" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_batchnorm0_fwd [label=iq0_input0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv0_batchnorm0_fwd [label=iq0_input0_convdw0_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv1_batchnorm0_fwd [label=iq0_input0_convdw0_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv2_batchnorm0_fwd [label=iq0_input0_convdw0_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_convdw0_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw0_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw0_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw0_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw0_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw1_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw1_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw1_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw1_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_conv0_fwd [label="Convolution
+3x3/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw2_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw2_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw2_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw2_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw3_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw3_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw3_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw3_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw4_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw4_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw4_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw4_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_conv1_fwd [label=iq0_hybridsequential0_lemon0_conv1_fwd fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw5_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw5_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw5_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw5_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw6_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw6_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw6_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw6_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw7_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv1_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw7_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 256" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv2_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_convdw7_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_convdw7_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_pool0_fwd [label="Pooling
+max, 1x1/1x1" fillcolor="#80b1d3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_broadcast_like0 [label=iq0_hybridsequential0_lemon0_broadcast_like0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0__mul0 [label=iq0_hybridsequential0_lemon0__mul0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0__plus0 [label=iq0_hybridsequential0_lemon0__plus0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_batchnorm0_fwd [label=iq0_hybridsequential0_lemon0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_hybridsequential0_lemon0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv0_batchnorm0_fwd [label=iq0_output0_convdw0_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv1_batchnorm0_fwd [label=iq0_output0_convdw0_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv2_batchnorm0_fwd [label=iq0_output0_convdw0_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw0_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv0_batchnorm0_fwd [label=iq0_output0_convdw1_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv1_batchnorm0_fwd [label=iq0_output0_convdw1_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv2_batchnorm0_fwd [label=iq0_output0_convdw1_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw1_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_conv0_fwd [label="Convolution
+3x3/1x1, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_pool0_fwd [label="Pooling
+max, 1x1/1x1" fillcolor="#80b1d3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_flatten0_flatten0 [label=iq0_output0_flatten0_flatten0 fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv0_batchnorm0_fwd [label=iq0_output0_convdw2_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv1_batchnorm0_fwd [label=iq0_output0_convdw2_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 128" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv2_batchnorm0_fwd [label=iq0_output0_convdw2_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw2_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv0_conv0_fwd [label="Convolution
+1x1/1x1, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv0_batchnorm0_fwd [label=iq0_output0_convdw3_conv0_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv0_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv1_conv0_fwd [label="Convolution
+3x3/2x2, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv1_batchnorm0_fwd [label=iq0_output0_convdw3_conv1_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv1_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv2_conv0_fwd [label="Convolution
+1x1/1x1, 136" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv2_batchnorm0_fwd [label=iq0_output0_convdw3_conv2_batchnorm0_fwd fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_convdw3_conv2_sigmoid0_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_conv1_fwd [label="Convolution
+3x3/1x1, 2" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_sigmoid1_fwd [label="Activation
+sigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_pool1_fwd [label="Pooling
+max, 1x1/1x1" fillcolor="#80b1d3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_output0_flatten1_flatten0 [label=iq0_output0_flatten1_flatten0 fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	iq0_input0_conv0_fwd -> data [label="3x128x128" arrowtail=open dir=back]
+	iq0_input0_batchnorm0_fwd -> iq0_input0_conv0_fwd [label="64x128x128" arrowtail=open dir=back]
+	iq0_input0_sigmoid0_fwd -> iq0_input0_batchnorm0_fwd [label="64x128x128" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv0_conv0_fwd -> iq0_input0_sigmoid0_fwd [label="64x128x128" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv0_batchnorm0_fwd -> iq0_input0_convdw0_conv0_conv0_fwd [label="128x128x128" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv0_sigmoid0_fwd -> iq0_input0_convdw0_conv0_batchnorm0_fwd [label="128x128x128" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv1_conv0_fwd -> iq0_input0_convdw0_conv0_sigmoid0_fwd [label="128x128x128" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv1_batchnorm0_fwd -> iq0_input0_convdw0_conv1_conv0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv1_sigmoid0_fwd -> iq0_input0_convdw0_conv1_batchnorm0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv2_conv0_fwd -> iq0_input0_convdw0_conv1_sigmoid0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv2_batchnorm0_fwd -> iq0_input0_convdw0_conv2_conv0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_input0_convdw0_conv2_sigmoid0_fwd -> iq0_input0_convdw0_conv2_batchnorm0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv0_conv0_fwd -> iq0_input0_convdw0_conv2_sigmoid0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv0_conv0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv0_batchnorm0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv0_sigmoid0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv1_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv1_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv1_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv2_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw0_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv2_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw0_conv2_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv0_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv0_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv0_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv1_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv1_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv1_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv2_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw1_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv2_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw1_conv2_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv0_conv0_fwd -> iq0_input0_convdw0_conv2_sigmoid0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv0_conv0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv0_batchnorm0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv0_sigmoid0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv1_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv1_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv1_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv2_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw2_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv2_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw2_conv2_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv0_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv0_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv0_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv1_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv1_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv1_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv2_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw3_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv2_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw3_conv2_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv0_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv0_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv0_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv1_conv0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv1_batchnorm0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv1_sigmoid0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv2_conv0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw4_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv2_batchnorm0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_conv1_fwd -> iq0_hybridsequential0_lemon0_convdw4_conv2_sigmoid0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv0_conv0_fwd -> iq0_input0_convdw0_conv2_sigmoid0_fwd [label="128x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv0_conv0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv0_batchnorm0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv0_sigmoid0_fwd [label="256x64x64" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv1_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv1_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv1_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv2_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw5_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv2_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw5_conv2_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv0_conv0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv0_batchnorm0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv0_sigmoid0_fwd [label="256x32x32" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv1_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv1_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv1_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv2_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw6_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv2_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw6_conv2_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv0_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv0_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv1_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv0_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv1_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv1_conv0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv1_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv1_batchnorm0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv2_conv0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv1_sigmoid0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv2_batchnorm0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv2_conv0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_convdw7_conv2_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv2_batchnorm0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_pool0_fwd -> iq0_hybridsequential0_lemon0_convdw7_conv2_sigmoid0_fwd [label="256x8x8" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_broadcast_like0 -> iq0_hybridsequential0_lemon0_pool0_fwd [label="256x1x1" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_broadcast_like0 -> iq0_hybridsequential0_lemon0_conv1_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0__mul0 -> iq0_hybridsequential0_lemon0_conv1_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0__mul0 -> iq0_hybridsequential0_lemon0_broadcast_like0 [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0__plus0 -> iq0_hybridsequential0_lemon0_conv0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0__plus0 -> iq0_hybridsequential0_lemon0__mul0 [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_batchnorm0_fwd -> iq0_hybridsequential0_lemon0__plus0 [label="256x16x16" arrowtail=open dir=back]
+	iq0_hybridsequential0_lemon0_sigmoid0_fwd -> iq0_hybridsequential0_lemon0_batchnorm0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv0_batchnorm0_fwd -> iq0_output0_convdw0_conv0_conv0_fwd [label="128x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv0_sigmoid0_fwd -> iq0_output0_convdw0_conv0_batchnorm0_fwd [label="128x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv1_conv0_fwd -> iq0_output0_convdw0_conv0_sigmoid0_fwd [label="128x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv1_batchnorm0_fwd -> iq0_output0_convdw0_conv1_conv0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv1_sigmoid0_fwd -> iq0_output0_convdw0_conv1_batchnorm0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv2_conv0_fwd -> iq0_output0_convdw0_conv1_sigmoid0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv2_batchnorm0_fwd -> iq0_output0_convdw0_conv2_conv0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw0_conv2_sigmoid0_fwd -> iq0_output0_convdw0_conv2_batchnorm0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv0_conv0_fwd -> iq0_output0_convdw0_conv2_sigmoid0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv0_batchnorm0_fwd -> iq0_output0_convdw1_conv0_conv0_fwd [label="136x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv0_sigmoid0_fwd -> iq0_output0_convdw1_conv0_batchnorm0_fwd [label="136x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv1_conv0_fwd -> iq0_output0_convdw1_conv0_sigmoid0_fwd [label="136x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv1_batchnorm0_fwd -> iq0_output0_convdw1_conv1_conv0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv1_sigmoid0_fwd -> iq0_output0_convdw1_conv1_batchnorm0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv2_conv0_fwd -> iq0_output0_convdw1_conv1_sigmoid0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv2_batchnorm0_fwd -> iq0_output0_convdw1_conv2_conv0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw1_conv2_sigmoid0_fwd -> iq0_output0_convdw1_conv2_batchnorm0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_conv0_fwd -> iq0_output0_convdw1_conv2_sigmoid0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_sigmoid0_fwd -> iq0_output0_conv0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_pool0_fwd -> iq0_output0_sigmoid0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_flatten0_flatten0 -> iq0_output0_pool0_fwd [label="136x1x1" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv0_conv0_fwd -> iq0_hybridsequential0_lemon0_sigmoid0_fwd [label="256x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv0_batchnorm0_fwd -> iq0_output0_convdw2_conv0_conv0_fwd [label="128x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv0_sigmoid0_fwd -> iq0_output0_convdw2_conv0_batchnorm0_fwd [label="128x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv1_conv0_fwd -> iq0_output0_convdw2_conv0_sigmoid0_fwd [label="128x16x16" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv1_batchnorm0_fwd -> iq0_output0_convdw2_conv1_conv0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv1_sigmoid0_fwd -> iq0_output0_convdw2_conv1_batchnorm0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv2_conv0_fwd -> iq0_output0_convdw2_conv1_sigmoid0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv2_batchnorm0_fwd -> iq0_output0_convdw2_conv2_conv0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw2_conv2_sigmoid0_fwd -> iq0_output0_convdw2_conv2_batchnorm0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv0_conv0_fwd -> iq0_output0_convdw2_conv2_sigmoid0_fwd [label="128x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv0_batchnorm0_fwd -> iq0_output0_convdw3_conv0_conv0_fwd [label="136x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv0_sigmoid0_fwd -> iq0_output0_convdw3_conv0_batchnorm0_fwd [label="136x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv1_conv0_fwd -> iq0_output0_convdw3_conv0_sigmoid0_fwd [label="136x8x8" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv1_batchnorm0_fwd -> iq0_output0_convdw3_conv1_conv0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv1_sigmoid0_fwd -> iq0_output0_convdw3_conv1_batchnorm0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv2_conv0_fwd -> iq0_output0_convdw3_conv1_sigmoid0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv2_batchnorm0_fwd -> iq0_output0_convdw3_conv2_conv0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_convdw3_conv2_sigmoid0_fwd -> iq0_output0_convdw3_conv2_batchnorm0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_conv1_fwd -> iq0_output0_convdw3_conv2_sigmoid0_fwd [label="136x4x4" arrowtail=open dir=back]
+	iq0_output0_sigmoid1_fwd -> iq0_output0_conv1_fwd [label="2x4x4" arrowtail=open dir=back]
+	iq0_output0_pool1_fwd -> iq0_output0_sigmoid1_fwd [label="2x4x4" arrowtail=open dir=back]
+	iq0_output0_flatten1_flatten0 -> iq0_output0_pool1_fwd [label="2x1x1" arrowtail=open dir=back]
+}
